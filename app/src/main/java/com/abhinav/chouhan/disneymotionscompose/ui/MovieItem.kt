@@ -25,7 +25,7 @@ fun MovieItem(
     Card(
         modifier = Modifier.padding(4.dp),
         shape = RoundedCornerShape(8.dp),
-        backgroundColor = colorResource(id = R.color.items_background),
+        backgroundColor = colorResource(id = R.color.items_background)
     ) {
         Column {
             Image(painter = rememberAsyncImagePainter(model = imageUrl),

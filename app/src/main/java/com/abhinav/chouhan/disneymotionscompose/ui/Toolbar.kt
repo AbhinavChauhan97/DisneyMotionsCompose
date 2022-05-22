@@ -12,7 +12,7 @@ import androidx.compose.ui.unit.sp
 import com.abhinav.chouhan.disneymotionscompose.R
 
 @Composable
-fun Toolbar(title:String,modifier: Modifier)
+fun Toolbar(title:String,modifier: Modifier = Modifier)
 {
     TopAppBar(
         title = {
